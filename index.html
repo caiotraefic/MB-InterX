@@ -178,7 +178,12 @@
     .hero__stat-num { font-size: 1.7rem; font-weight: 900; color: #81e6d9; line-height: 1; margin-bottom: 4px; }
     .hero__stat--fda { display: flex; align-items: center; margin-left: -22px; }
     .hero__stat-fda-img { height: 72px; width: auto; filter: invert(1) brightness(10); opacity: .8; }
-    @media (max-width: 768px) { .hero__stat-fda-img { height: 40px; } }
+    @media (max-width: 768px) {
+      .hero__stat-fda-img { height: 60px; }
+      .hero__stat-num { font-size: 1.2rem; }
+      .hero__stat-label { font-size: .6rem; }
+      .hero__stat--fda { margin-left: -14px; }
+    }
     .hero__stat-label { font-size: .72rem; color: rgba(255,255,255,.45); font-weight: 500; text-transform: uppercase; letter-spacing: .06em; }
 
     /* ── DISCLAIMER ── */
