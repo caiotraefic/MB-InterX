@@ -176,6 +176,9 @@
     .btn-hero--outline:hover { border-color: #81e6d9; color: #81e6d9; }
     .hero__stats { display: flex; gap: 36px; padding-top: 32px; border-top: 1px solid rgba(255,255,255,.12); }
     .hero__stat-num { font-size: 1.7rem; font-weight: 900; color: #81e6d9; line-height: 1; margin-bottom: 4px; }
+    .hero__stat--fda { display: flex; align-items: center; }
+    .hero__stat-fda-img { height: 52px; width: auto; filter: invert(1) brightness(10); opacity: .8; }
+    @media (max-width: 768px) { .hero__stat-fda-img { height: 40px; } }
     .hero__stat-label { font-size: .72rem; color: rgba(255,255,255,.45); font-weight: 500; text-transform: uppercase; letter-spacing: .06em; }
 
     /* ── DISCLAIMER ── */
@@ -621,6 +624,7 @@
         <div><div class="hero__stat-num">24+</div><div class="hero__stat-label">Peptídeos disponíveis</div></div>
         <div><div class="hero__stat-num">COA</div><div class="hero__stat-label">Certificado por lote</div></div>
         <div><div class="hero__stat-num">B2B</div><div class="hero__stat-label">Exclusivo profissionais</div></div>
+        <div class="hero__stat--fda"><img src="fda-logo.png" alt="FDA Approved" class="hero__stat-fda-img"></div>
       </div>
     </div>
   </div>
